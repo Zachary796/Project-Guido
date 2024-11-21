@@ -9,13 +9,13 @@ void reload(){
     {
     SERVO_SetAngle(SERVO_1, 15);
     }
-    SERVO_SetAngle(SERVO_1, 80);
+    SERVO_SetAngle(SERVO_1, 170);
 }
 
 void dispatch(){
-SERVO_SetAngle(SERVO_1, 80);
-delay(2500);
 SERVO_SetAngle(SERVO_1, 170);
+delay(2500);
+SERVO_SetAngle(SERVO_1, 80);
 }
 
 void setup(){
